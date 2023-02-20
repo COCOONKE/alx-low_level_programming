@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * Description: 'print single digit numbers using putchar'
+ * Return: Always 0
  */
 int main(void)
 {
