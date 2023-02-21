@@ -2,21 +2,18 @@
 /**
  * main - Entry point
  * Description: 'print number of base 16'
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int n;
-	int m;
+	char low;
 
-	for (n = 48; n <= 57; n++)
-	{
-		putchar(n);
-	}
-	for (m = 97; n <= 102; m++)
-	{
-		putchar(m);
-	}
+	for (n = '0'; n <= '9'; n++)
+	putchar(n);
+
+	for (low = 'a' ; low <= 'f' ; low++)
+	putchar(low);
 	putchar('\n');
 	return (0);
 }
